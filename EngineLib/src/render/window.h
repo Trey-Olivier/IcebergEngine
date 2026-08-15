@@ -13,7 +13,7 @@ class window {
     ~window();
 
     private:
-    SDL_Window* window;
+    SDL_Window* sdl_window = nullptr;
     SDL_GLContext gl_context;
 
 };
