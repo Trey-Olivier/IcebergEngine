@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.15)
 project(EngineLib CXX)
 
 add_library(EngineLib STATIC
-        app/Engine.cpp
-        app/Engine.h
+        app/engine.cpp
+        app/engine.h
 )
 
 # Link SDL and Glad, and include GLM and STB header paths
