@@ -10,6 +10,8 @@ target_include_directories(glad_gl_core_46 PUBLIC
 
 add_library(EngineLib STATIC
         include/application.h
+        src/render/window.cpp
+        src/render/window.h
 )
 
 target_link_libraries(EngineLib PUBLIC
