@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/submodule/SDL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/submodule/glad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/submodule/glm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/submodule/stb" vcs="Git" />
   </component>
 </project>
