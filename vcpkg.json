@@ -1,0 +1,17 @@
+{
+  "name": "my-3d-engine",
+  "version": "1.0.0",
+  "dependencies": [
+    "glfw3",
+    "glad",
+    "glm",
+    "assimp",
+    "entt",
+    "joltphysics",
+    "stb",
+    {
+      "name": "imgui",
+      "features": ["glfw-binding", "opengl3-binding"]
+    }
+  ]
+}
