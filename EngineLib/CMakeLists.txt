@@ -7,14 +7,13 @@ find_package(glad CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
 find_package(assimp CONFIG REQUIRED)
 find_package(entt CONFIG REQUIRED)
-find_package(joltphysics CONFIG REQUIRED)
+find_package(Jolt CONFIG REQUIRED)
 find_package(imgui CONFIG REQUIRED)
 find_package(Stb REQUIRED)
 
 # 2. Define your engine library
 add_library(EngineLib STATIC
-        src/application.cpp
-        src/renderer.cpp
+        src/file.cpp
 )
 
 # 3. Include directories for your own engine headers
@@ -28,8 +27,8 @@ target_link_libraries(EngineLib PUBLIC
         glad::glad
         glm::glm
         assimp::assimp
-        EnTT::entt
-        JoltPhysics::JoltPhysics
+        EnTT::EnTT
+        Jolt::Jolt
         imgui::imgui
-        Stb::Stb
+        Stb
 )
