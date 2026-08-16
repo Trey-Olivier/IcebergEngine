@@ -5,6 +5,6 @@ add_executable(Game WIN32
         main.cpp
 )
 
-target_link_libraries(Game PRIVATE
+target_link_libraries(Game PUBLIC
         EngineLib
 )
