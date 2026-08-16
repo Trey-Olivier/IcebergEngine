@@ -10,6 +10,7 @@ find_package(entt CONFIG REQUIRED)
 find_package(Jolt CONFIG REQUIRED)
 find_package(imgui CONFIG REQUIRED)
 find_package(Stb REQUIRED)
+find_package(spdlog CONFIG REQUIRED) # Added spdlog
 
 # 2. Define your engine library
 add_library(EngineLib STATIC
@@ -31,4 +32,5 @@ target_link_libraries(EngineLib PUBLIC
         Jolt::Jolt
         imgui::imgui
         Stb
+        spdlog::spdlog # Added spdlog target
 )
