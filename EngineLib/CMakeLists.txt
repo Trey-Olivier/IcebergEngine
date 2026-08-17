@@ -15,17 +15,16 @@ find_package(spdlog CONFIG REQUIRED) # Added spdlog
 # 2. Define your engine library
 add_library(EngineLib STATIC
         #.H
-
-        #CPP
-        src/file.cpp
         include/RenderPipeline/Renderer.h
-        src/RenderPipeline/Renderer.cpp
-        src/RenderPipeline/Shader.cpp
         include/RenderPipeline/shader.h
         include/RenderPipeline/vertex.h
         include/RenderPipeline/mesh.h
+
+        #CPP
+        src/file.cpp
+        src/RenderPipeline/Renderer.cpp
+        src/RenderPipeline/Shader.cpp
         src/RenderPipeline/mesh.cpp
-        include/input/input.h
 )
 
 # 3. Include directories for your own engine headers
