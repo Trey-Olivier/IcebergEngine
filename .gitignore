@@ -11,7 +11,7 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 *.idea
-*.out
+*out
 *.vs
 
 # CLion
